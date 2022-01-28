@@ -21,6 +21,7 @@ npm install svelte-apex
 ## Watch more examples in the gallery 🎉
 
 Have a look at the [Website](https://svelte-apex-examples.vercel.app/)
+Note that a little bug force you to refresh the page to a warning 500. I'm working on a fix 😉
 
 
 ## Licence 📄
