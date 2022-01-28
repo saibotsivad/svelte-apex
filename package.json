@@ -1,0 +1,26 @@
+{
+  "name": "svelte-apex",
+  "version": "1.0.0",
+  "description": "Svelte Components for the ApexCharts library",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "src/index.js",
+  "scripts": {
+      "build": "rollup -c",
+      "dev": "rollup -c -w"
+  },
+  "keywords": [
+    "apex",
+    "apexcharts",
+    "charts",
+    "svelte"
+  ],
+  "author": "AlexandreKempf",
+  "license": "mit",
+  "devDependencies": {
+    "rollup": "^2.66.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.46.3"
+  }
+}
