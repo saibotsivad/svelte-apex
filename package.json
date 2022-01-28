@@ -33,6 +33,6 @@
       "url": "https://github.com/AlexandreKempf/svelte-apex/issues"
   },
   "dependencies": {
-    "ramda": "^0.27.1",
+    "ramda": "^0.27.1"
   }
 }
