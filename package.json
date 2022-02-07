@@ -1,6 +1,6 @@
 {
   "name": "svelte-apex",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Svelte Components for the ApexCharts library",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
