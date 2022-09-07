@@ -40,8 +40,7 @@
 	size = size === undefined && type === 'scatter' ? 4 : size;
 	size = size === undefined ? 0 : size;
 
-	fillOpacity =
-		fillOpacity === undefined && ['pie', 'donut'].includes($config.chart.type) ? 1.0 : fillOpacity;
+	fillOpacity = fillOpacity === undefined && ['pie', 'donut'].includes($config.chart.type) ? 1.0 : fillOpacity;
 	fillOpacity = fillOpacity === undefined && $config.chart.type == 'radar' ? 0.2 : fillOpacity;
 	fillOpacity = fillOpacity === undefined ? 0.9 : fillOpacity;
 
@@ -57,11 +56,11 @@
 
 	const data = x
 		? R.zipWith(
-				(x, y) => {
-					return { x: x, y: y };
-				},
-				x,
-				y
+			(x, y) => {
+				return { x: x, y: y };
+			},
+			x,
+			y,
 		  )
 		: y;
 	if (['pie', 'donut'].includes($config.chart.type)) {
